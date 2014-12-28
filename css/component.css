@@ -251,7 +251,7 @@ div.bl-panel-items > div > div {
 .bl-content > ul li a {
 	display: block;
 	padding: 0;
-	border: 8px solid rgba(0,0,0,0.1);
+	/*border: 8px solid rgba(0,0,0,0.1);*/
 }
 
 .bl-content > ul li a img {
@@ -465,7 +465,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 	.bl-icon-close:before {
 		display: block;
-		font-size: 3em;
+		font-size: 2em;
 		margin-bottom: 10px;
 	}
 
@@ -482,7 +482,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	h2.title {
 		font-size: 2em;
 		font-weight: 300;
-		margin: 25px 0px 40px 20px !important;
+		margin: 25px 0px 40px 18px !important;
 	}
 
 }
@@ -496,7 +496,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	h2.title {
 		font-size: 2em;
 		font-weight: 300;
-		margin: 21px 0px 40px 20px !important;
+		margin: 21px 0px 40px 18px !important;
 	}
 
 	span.bl-icon.left {
@@ -536,6 +536,13 @@ and (orientation : portrait) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : landscape) {
+
+	.bl-content,
+	.bl-box {
+		font-size: 75%;
+	}
+
+
 	div.bl-panel-items > div > div {
 		top: 50px;
 	}
@@ -570,7 +577,7 @@ and (orientation : landscape) {
 	h2.title {
 		font-size: 2em;
 		font-weight: 300;
-		margin: 5px 0px 40px 20px !important;
+		margin: 5px 0px 40px 18px !important;
 	}
 
 }
@@ -604,5 +611,5 @@ span.bl-icon.left {
 .bl-panel-items h2.title {
 	font-size: 2em;
 	font-weight: 300;
-	margin: 18px 0px 40px 20px;
+	margin: 18px 0px 40px 24px;
 }
