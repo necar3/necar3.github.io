@@ -608,6 +608,10 @@ span.bl-icon.left {
 	padding-right: 10px;
 }
 
+span.bl-icon.right {
+	padding-right: 10px;
+}
+
 .bl-panel-items h2.title {
 	font-size: 2em;
 	font-weight: 300;
