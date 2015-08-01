@@ -1,0 +1,10 @@
+.header {
+
+}
+.logo {
+  margin: 5vh;
+  @include flexbox;
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
+}
