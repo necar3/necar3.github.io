@@ -14,7 +14,7 @@
 
 html {
   font-size: 62.5%;
-  background: radial-gradient(ellipse at center, #F7F6F0 0, #c2ba8c 80%, #b0a66b 100%); }
+  background: white; }
 
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
@@ -24,6 +24,9 @@ body {
 body, html {
   min-height: 100vh;
   overflow: hidden; }
+
+.max-width {
+  max-width: 100%; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -498,7 +501,6 @@ td, th {
     -webkit-align-self: auto;
             align-self: auto; }
     .flexChild .child-image {
-      background-color: grey;
       width: 140px;
       height: 100px; }
     .flexChild .child-item {
