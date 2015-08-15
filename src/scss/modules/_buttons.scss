@@ -1,8 +1,7 @@
 .button {
-  @include flexbox;
-  @include flex-direction(row);
-  @include justify-content(flex-end);
-  font-size: 3vh;
-  padding: 2vh;
-  font-weight: bold;
+  @include position(absolute, 0px 0px 0 0);
+  color: #000;
+  font-size: 7vh;
+  margin: 1vw;
+  z-index: 1000;
 }

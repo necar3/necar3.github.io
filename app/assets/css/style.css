@@ -373,21 +373,13 @@ td, th {
   text-align: center; }
 
 .button {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-pack: end;
-  -webkit-justify-content: flex-end;
-  -moz-justify-content: flex-end;
-  justify-content: flex-end;
-  font-size: 3vh;
-  padding: 2vh;
-  font-weight: bold; }
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #000;
+  font-size: 7vh;
+  margin: 1vw;
+  z-index: 1000; }
 
 @font-face {
   font-family: 'Font-Name';
@@ -415,6 +407,13 @@ td, th {
   background: #333;
   color: #fff;
   text-shadow: none; }
+
+a {
+  color: #000000;
+  text-decoration: none; }
+  a:visited {
+    color: #000000;
+    text-decoration: none; }
 
 @media only screen and (min-width: 1024px) {
   .rowParent, .columnParent {
