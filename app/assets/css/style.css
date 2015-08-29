@@ -14,7 +14,7 @@
 
 html {
   font-size: 62.5%;
-  background: white; }
+  background: #EAEAEA; }
 
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
@@ -415,16 +415,20 @@ a {
     color: #000000;
     text-decoration: none; }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+  .child-item {
+    margin-bottom: 10px; } }
+
+@media only screen and (min-width: 1025px) {
   .rowParent, .columnParent {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: none;
     flex-wrap: nowrap;
@@ -437,10 +441,10 @@ a {
     -moz-align-items: strech;
     align-items: strech; }
   .columnParent {
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     -moz-justify-content: center;
@@ -454,23 +458,21 @@ a {
     -webkit-align-self: auto;
             align-self: auto; }
     .flexChild .child-image {
-      background-color: grey;
-      width: 40vh;
-      height: 30vh; }
+      height: 80px; }
     .flexChild .child-item {
-      margin: 20px; } }
+      margin-bottom: 10px; } }
 
 /* iPhone 6 landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
   .rowParent, .columnParent {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: none;
     flex-wrap: nowrap;
@@ -483,10 +485,10 @@ a {
     -moz-align-items: strech;
     align-items: strech; }
   .columnParent {
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     -moz-justify-content: center;
@@ -500,13 +502,12 @@ a {
     -webkit-align-self: auto;
             align-self: auto; }
     .flexChild .child-image {
-      width: 140px;
-      height: 100px; }
+      height: 80px; }
     .flexChild .child-item {
-      margin: 20px; } }
+      margin-bottom: 10px; } }
 
 /* iPhone 6 Portrait */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+@media only screen and (orientation: portrait) {
   .rowParent, .columnParent {
     display: -webkit-flex;
     display: -moz-flex;
@@ -543,13 +544,7 @@ a {
   .flexChild {
     -ms-flex-item-align: auto;
     -webkit-align-self: auto;
-            align-self: auto; }
-    .flexChild .child-image {
-      background-color: grey;
-      width: 140px;
-      height: 100px; }
-    .flexChild .child-item {
-      margin: 20px; } }
+            align-self: auto; } }
 
 @media print {
   * {
