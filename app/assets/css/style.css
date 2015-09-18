@@ -411,7 +411,7 @@ th {
 }
 
 .coordonnees .separator {
-  width: 30vh;
+  width: 125px;
   border: 1px solid #f4f4f4;
   box-shadow: 0 1px 0 gray;
 }
