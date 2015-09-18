@@ -1,8 +1,0 @@
-.button {
-  @include flexbox;
-  @include flex-direction(row);
-  @include justify-content(flex-end);
-  font-size: 3vh;
-  padding: 2vh;
-  font-weight: bold;
-}
