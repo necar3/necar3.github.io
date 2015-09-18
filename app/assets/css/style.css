@@ -7,7 +7,7 @@ html {
   background: #EAEAEA; }
 
 body {
-  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  font: 300 13px/1.6 'Helvetica Neue Light', Helvetica, Arial;
   color: #444;
   transition: all .4s .3s ease-in; }
 
@@ -377,7 +377,8 @@ th {
   padding: 0; }
 
 .logo {
-  margin: 5vh;
+  height: 150px;
+  background-color: #f4f4f4;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -400,6 +401,29 @@ th {
   -moz-align-items: center;
   align-items: center; }
 
+.coordonnees {
+  padding: 5vh;
+  text-align: center;
+}
+
+.coordonnees .name {
+  text-transform: uppercase;
+}
+
+.coordonnees .separator {
+  width: 30vh;
+  border: 1px solid #f4f4f4;
+  box-shadow: 0 1px 0 gray;
+}
+
+.coordonnees .mail {
+
+}
+
+.coordonnees .phone {
+  line-height: 0.8;
+}
+
 .nav ul {
   list-style: none; }
 
@@ -416,11 +440,12 @@ th {
   z-index: 1000; }
 
 @font-face {
-  font-family: 'Font-Name';
-  src: url("../fonts/font-name.eot");
-  src: url("../fonts/font-name.eot?#iefix") format("embedded-opentype"), url("../fonts/font-name.woff") format("woff"), url("../fonts/font-name.ttf") format("truetype"), url("../fonts/font-name.svg#font-name") format("svg");
+  font-family: 'Helvetica Neue Light';
+  src: url("font/helveticaneue-light-webfont.eot");
+  src: url("font/helveticaneue-light-webfont.eot?#iefix") format("embedded-opentype"), url("font/helveticaneue-light-webfont.woff") format("woff"), url("font/helveticaneue-light-webfont.ttf") format("truetype"), url("font/helveticaneue-light-webfont.svg#helveticaneue-light-webfont") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 ::selection {
   background: #333;
   color: #fff;
