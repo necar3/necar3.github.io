@@ -703,11 +703,12 @@ a:visited {
 
 .project:hover .project-description {
   display: block;
-  -webkit-filter: brightness(50%);
+  background: none;
+  -webkit-filter: brightness(100%);
 }
 
-.project:hover {
-  //-webkit-filter: brightness(50%);
+.project:hover img {
+  -webkit-filter: brightness(50%);
 }
 
 /* iPhone 6 Portrait */
