@@ -463,6 +463,7 @@ td, th {
 }
 .coordonnees .name {
   text-transform: uppercase;
+  font-size: 14px;
 }
 .coordonnees .separator {
   width: 125px;
