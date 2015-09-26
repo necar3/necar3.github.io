@@ -704,8 +704,6 @@ a:visited {
 
 .project:hover .project-description {
   display: block;
-  background: none;
-  -webkit-filter: brightness(100%);
 }
 
 .project:hover img {
