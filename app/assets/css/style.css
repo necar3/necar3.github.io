@@ -15,12 +15,52 @@ body, html {
   min-height: 100vh;
   overflow: hidden;
 }
-.max-width {
-  max-width: 100%;
+
+.button {
+  background: url("../img/portfolio/x_s.png") top center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #000;
+  z-index: 1000;
+  background-size: 20px 20px;
+  width: 28px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.fp-controlArrow {
+    top: 50% !important;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    /* border-width: 38.5px 0 38.5px 34px; */
+    /* border-color: transparent transparent transparent #fff; */
+    width: 28px !important;
+    height: 28px;
+    background: url("../img/portfolio/arrow_l_s.png");
+    border: none;
+    background-repeat: no-repeat;
+}
+
+.fp-controlArrow.fp-next {
+    right: 15px;
+    /* border-width: 38.5px 0 38.5px 34px; */
+    /* border-color: transparent transparent transparent #fff; */
+    width: 28px;
+    height: 28px;
+    background: url("../img/portfolio/arrow_r_s.png");
+    border: none;
+    background-repeat: no-repeat;
 }
 
 .max-height {
-  max-height: 550px;
+  max-height: 600px;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -461,9 +501,8 @@ td, th {
   -moz-align-items: center;
   align-items: center;
 }
-
 .projet-title {
-/*  min-height: 100px; */
+  /*  min-height: 100px; */
   background-color: #f4f4f4;
   display: -webkit-box;
   display: -webkit-flex;
@@ -483,8 +522,6 @@ td, th {
   justify-content: center;
   -webkit-box-align: center;
 }
-
-
 .coordonnees {
   padding: 5vh;
   text-align: center;
@@ -502,42 +539,28 @@ td, th {
 .coordonnees .phone {
   line-height: 0.8;
 }
-
 .info-projet {
   padding: 5vh;
   text-align: center;
 }
-
 .info-projet .name {
   text-transform: uppercase;
   font-size: 24px;
 }
-
 .info-projet .separator {
   width: 270px;
   border: 1px solid #f4f4f4;
   box-shadow: 0 1px 0 gray;
 }
-
 .info-projet .description {
   padding: 20px;
   max-width: 240px;
 }
-
 .nav ul {
   list-style: none;
 }
 .main .intro {
   text-align: center;
-}
-.button {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  color: #000;
-  font-size: 7vh;
-  margin: 1vw;
-  z-index: 1000;
 }
 @font-face {
   font-family: 'Helvetica Neue Light';
@@ -643,7 +666,6 @@ a:visited {
   .flexChild .child-item {
     margin-bottom: 10px;
   }
-
   .image {
     position: relative;
     height: 100%;
@@ -664,54 +686,48 @@ a:visited {
     opacity: 1;
   }
 }
-
 .container {
   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
-
 .project {
   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    position: relative;
-    height: 100%;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  position: relative;
+  height: 100%;
 }
-
 .project-description {
   position: absolute;
   top: 0;
   bottom: 0;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   margin: auto;
-  width:50%;
+  width: 50%;
   height: 30%;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   display: none;
 }
-
 .project:hover .project-description {
   display: block;
 }
-
 .project:hover img {
   -webkit-filter: brightness(50%);
 }
 
 /* iPhone 6 Portrait */
-@media only screen and (orientation: portrait) {
-  .container {
 
-  }
+@media only screen and (orientation: portrait) {
+  .container {}
 }
