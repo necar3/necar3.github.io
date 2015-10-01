@@ -463,7 +463,7 @@ td, th {
 }
 
 .projet-title {
-  min-height: 100px;
+/*  min-height: 100px; */
   background-color: #f4f4f4;
   display: -webkit-box;
   display: -webkit-flex;
