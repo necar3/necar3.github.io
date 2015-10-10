@@ -714,12 +714,14 @@ a:visited {
   text-transform: uppercase;
   text-align: center;
   display: none;
+  
 }
 .project:hover .project-description {
   display: block;
 }
 .project:hover img {
   -webkit-filter: brightness(50%);
+  -webkit-transition:all 0.9s;
 }
 
 /* iPhone 6 Portrait */
