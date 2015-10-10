@@ -711,6 +711,8 @@ a:visited {
   width: 50%;
   height: 30%;
   color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: center;
   display: none;
