@@ -517,6 +517,8 @@ td, th {
   -moz-justify-content: center;
   justify-content: center;
   -webkit-box-align: center;
+  position: relative;
+    display: inline-block;
 }
 .coordonnees {
   padding: 5vh;
@@ -543,6 +545,10 @@ td, th {
 .info-projet {
   padding: 5vh;
   text-align: center;
+  position: absolute;
+  background-color: #EAEAEA;
+  top: 50px;
+  left: -100px;
 }
 
 .info-projet-intro {
