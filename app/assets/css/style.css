@@ -524,16 +524,21 @@ td, th {
 }
 .coordonnees .name {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 19px;
 }
 .coordonnees .separator {
-  width: 125px;
+  width: 155px;
   border: 1px solid #f4f4f4;
   box-shadow: 0 1px 0 gray;
 }
-.coordonnees .mail {}
+.coordonnees .mail {
+	margin-top: 7px;
+	color: #a4a4a4;
+}
 .coordonnees .phone {
   line-height: 0.8;
+  margin-top: 1px;
+  color: #a4a4a4;
 }
 .info-projet {
   padding: 5vh;
