@@ -1,0 +1,148 @@
+/* iPad and laptop */
+@media only screen and (orientation: landscape) {
+  .eclate_1 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/h_vin_1.jpg") no-repeat center;
+    background-size: 90vw;
+  }
+
+  .eclate_2 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/h_vin_2.jpg") no-repeat center;
+    background-size: 90vw;
+  }
+
+
+  .eclate_3 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/h_vin_3.jpg") no-repeat center;
+    background-size: 90vw;
+  }
+}
+
+/* iPhone 6 Portrait */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .eclate_1 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/v_vin_1.jpg") no-repeat center;
+  }
+
+  .eclate_2 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/v_vin_2.jpg") no-repeat center;
+  }
+}
+
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px) and (orientation: portrait) {
+
+  .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev  {
+    display: none;
+  }
+
+  .eclate_1 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/v_vin_1.jpg") no-repeat center;
+    background-size: 100vw;
+  }
+
+  .eclate_2 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/v_vin_2.jpg") no-repeat center;
+    background-size: 100vw;
+  }
+
+
+  .eclate_3 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/v_vin_3.jpg") no-repeat center;
+    background-size: 100vw;
+  }
+
+  .info-projet {
+    padding: 2vh;
+    text-align: center;
+    position: absolute;
+    background-color: #EAEAEA;
+    top: 50px;
+    left: 30px;
+  }
+  .info-projet .name {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .info-projet .separator {
+    width: 135px;
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 1px 0 gray;
+  }
+  .info-projet .description {
+    padding: 5px;
+    max-width: 120px;
+  }
+}
+
+/* iPhone 6 landscape */
+
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)  and (orientation: landscape) {
+
+  .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
+    display: none;
+  }
+
+
+  .eclate_1 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/h_vin_1.jpg") no-repeat center;
+    background-size: 100vw;
+  }
+
+  .eclate_2 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/h_vin_2.jpg") no-repeat center;
+    background-size: 100vw;
+  }
+
+
+  .eclate_3 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/portfolio/h_vin_3.jpg") no-repeat center;
+    background-size: 100vw;
+  }
+
+
+  .info-projet {
+    padding: 2vh;
+    text-align: center;
+    position: absolute;
+    background-color: #EAEAEA;
+    top: 50px;
+    left: 30px;
+  }
+  .info-projet .name {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .info-projet .separator {
+    width: 135px;
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 1px 0 gray;
+  }
+  .info-projet .description {
+    padding: 5px;
+    max-width: 120px;
+  }
+}
