@@ -23,6 +23,31 @@
   }
 }
 
+@media only screen and (min-device-width: 320px)
+  and (max-device-width: 1024px) and (orientation: landscape) {
+
+    .project .project-description {
+      width: 50%;
+      height: 30%;
+      color: #fff;
+      font-size: 1.1em;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+  }
+
+  .project img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition:all 0.9s;
+  }
+
+  .child-image {
+    height: 80px;
+    width: 100%;
+  }
+}
+
 /* iPhone 6 Portrait */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -39,8 +64,30 @@
   }
 }
 
-@media only screen and (min-device-width: 375px)
-  and (max-device-width: 667px) and (orientation: portrait) {
+@media only screen and (min-device-width: 320px)
+  and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .project .project-description {
+      width: 50%;
+      height: 30%;
+      color: #fff;
+      font-size: 1.1em;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+  }
+
+  .project img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition:all 0.9s;
+  }
+
+  .child-image {
+    height: 80px;
+    width: 100%;
+  }
+
 
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev  {
     display: none;
