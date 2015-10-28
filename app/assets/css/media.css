@@ -140,8 +140,8 @@
 
 /* iPhone 6 landscape */
 
-@media only screen and (min-device-width: 375px)
-  and (max-device-width: 667px)  and (orientation: landscape) {
+@media only screen and (min-device-width: 320px)
+  and (max-device-width: 1024px)  and (orientation: landscape) {
 
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
     display: none;
