@@ -16,6 +16,7 @@
   <link href="assets/css/jquery.fullPage.css" rel="stylesheet">
 
   <script src="assets/components/modernizr/modernizr.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.1/picturefill.min.js"></script>
 </head>
 
 <body>
@@ -25,20 +26,28 @@
       <div class="section" id="section0">
         <div class=""><a href="index.html" class="button"></a></div>
         <div class="slide">
+          <span id="road" class="image" role="img" aria-label="A road in Sweden during winter.">
+            <span class="inner"></span>
+          </span>
           <div class="intro">
-            <div class="projet-title">
               <div class="info-projet">
                 <div class="name">Asctotio</div>
                 <div class="separator"></div>
                 <div class="description">Not only vertical scrolling but also horizontal scrolling.</div>
               </div>
-                <div class="eclate_1"></div>
-            </div>
-
           </div>
+          <picture>
+            <source srcset="assets/img/portfolio/h_sel_1.jpg, assets/img/portfolio/h_sel_1@2x.jpg  2x" media="(min-width: 321px)">
+            <source srcset="assets/img/portfolio/v_sel_1.jpg, assets/img/portfolio/v_sel_1@2x.jpg  2x" media="(max-width: 320px)">
+            <img srcset="assets/img/portfolio/h_sel_1.jpg, assets/img/portfolio/h_sel_1@2x.jpg  2x" alt="…">
+          </picture>
         </div>
         <div class="slide">
-          <div class="eclate_2"></div>
+          <picture>
+            <source srcset="assets/img/portfolio/h_sel_2.jpg, assets/img/portfolio/h_sel_2@2x.jpg  2x" media="(min-width: 321px)">
+            <source srcset="assets/img/portfolio/v_sel_2.jpg, assets/img/portfolio/v_sel_2@2x.jpg  2x" media="(max-width: 320px)">
+            <img srcset="assets/img/portfolio/h_sel_2.jpg, assets/img/portfolio/h_sel_2@2x.jpg  2x" alt="…">
+          </picture>
         </div>
         <div class="slide">
           <div class="eclate_3"></div>

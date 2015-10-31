@@ -581,6 +581,7 @@ td, th {
   margin-top: 1px;
   color: #a4a4a4;
 }
+
 .info-projet {
   padding: 5vh;
   text-align: center;
@@ -606,9 +607,7 @@ td, th {
 .nav ul {
   list-style: none;
 }
-.main .intro {
-  text-align: center;
-}
+
 @font-face {
   font-family: 'Helvetica Neue Light';
   src: url("font/helveticaneue-light-webfont.eot");

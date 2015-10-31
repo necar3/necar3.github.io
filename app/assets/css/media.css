@@ -1,5 +1,5 @@
 /* iPad and laptop */
-@media only screen and (orientation: landscape) {
+@media only screen and (min-device-with: 1024px) and (orientation: landscape) {
   .eclate_1 {
     width: 100vw;
     height: 100vh;
@@ -49,21 +49,6 @@
 }
 
 /* iPhone 6 Portrait */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .eclate_1 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/v_vin_1.jpg") no-repeat center;
-  }
-
-  .eclate_2 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/v_vin_2.jpg") no-repeat center;
-  }
-}
-
 @media only screen and (min-device-width: 320px)
   and (max-device-width: 1024px) and (orientation: portrait) {
 
@@ -93,24 +78,48 @@
     display: none;
   }
 
-  .eclate_1 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/v_vin_1.jpg") no-repeat center;
-    background-size: 100vw;
+  .image {
+    display: inline-block;
+    vertical-align: middle;
+    font: 0/0 serif;
+    text-shadow: none;
+    color: transparent;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
   }
 
+
+  #road {
+      background-image: url('../img/portfolio/v_vin_1.jpg');
+      width: 100%;
+      /* don't define a height on the .image */
+    }
+  #road .inner {
+    padding-top: 66.5039%; /* 681px / 1024px * 100% = 66.5039% */
+  }
+
+
+
+  .eclate_1 {
+    background: url("../img/portfolio/v_vin_1.jpg");
+    width: 100%;
+  }
+
+  .image .inner {
+      padding-top: 66.5039%; /* 681px / 1024px * 100% = 66.5039% */
+    }
+
   .eclate_2 {
-    width: 100vw;
-    height: 100vh;
     background: url("../img/portfolio/v_vin_2.jpg") no-repeat center;
     background-size: 100vw;
   }
 
 
   .eclate_3 {
-    width: 100vw;
-    height: 100vh;
     background: url("../img/portfolio/v_vin_3.jpg") no-repeat center;
     background-size: 100vw;
   }
