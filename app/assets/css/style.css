@@ -608,6 +608,12 @@ td, th {
   list-style: none;
 }
 
+.picture {
+  width: 100%;
+  min-height: 92vh;
+  background-size: 90% !important;
+}
+
 @font-face {
   font-family: 'Helvetica Neue Light';
   src: url("font/helveticaneue-light-webfont.eot");

@@ -1,58 +1,8 @@
-/* iPad and laptop */
-@media only screen and (min-device-with: 1024px) and (orientation: landscape) {
-  .eclate_1 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/h_vin_1.jpg") no-repeat center;
-    background-size: 90vw;
-  }
-
-  .eclate_2 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/h_vin_2.jpg") no-repeat center;
-    background-size: 90vw;
-  }
-
-
-  .eclate_3 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/h_vin_3.jpg") no-repeat center;
-    background-size: 90vw;
-  }
-}
-
+  /* iPhone 6 Portrait */
 @media only screen and (min-device-width: 320px)
-  and (max-device-width: 1024px) and (orientation: landscape) {
+  and (max-device-width: 767px) and (orientation: portrait) {
 
-    .project .project-description {
-      width: 50%;
-      height: 30%;
-      color: #fff;
-      font-size: 1.1em;
-      font-weight: 300;
-      text-transform: uppercase;
-      text-align: center;
-      display: block;
-  }
-
-  .project img {
-    -webkit-filter: brightness(50%);
-    -webkit-transition:all 0.9s;
-  }
-
-  .child-image {
-    height: 80px;
-    width: 100%;
-  }
-}
-
-/* iPhone 6 Portrait */
-@media only screen and (min-device-width: 320px)
-  and (max-device-width: 1024px) and (orientation: portrait) {
-
-    .project .project-description {
+  .project .project-description {
       width: 50%;
       height: 30%;
       color: #fff;
@@ -78,52 +28,6 @@
     display: none;
   }
 
-  .image {
-    display: inline-block;
-    vertical-align: middle;
-    font: 0/0 serif;
-    text-shadow: none;
-    color: transparent;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-  }
-
-
-  #road {
-      background-image: url('../img/portfolio/v_vin_1.jpg');
-      width: 100%;
-      /* don't define a height on the .image */
-    }
-  #road .inner {
-    padding-top: 66.5039%; /* 681px / 1024px * 100% = 66.5039% */
-  }
-
-
-
-  .eclate_1 {
-    background: url("../img/portfolio/v_vin_1.jpg");
-    width: 100%;
-  }
-
-  .image .inner {
-      padding-top: 66.5039%; /* 681px / 1024px * 100% = 66.5039% */
-    }
-
-  .eclate_2 {
-    background: url("../img/portfolio/v_vin_2.jpg") no-repeat center;
-    background-size: 100vw;
-  }
-
-
-  .eclate_3 {
-    background: url("../img/portfolio/v_vin_3.jpg") no-repeat center;
-    background-size: 100vw;
-  }
-
   .info-projet {
     padding: 2vh;
     text-align: center;
@@ -145,40 +49,81 @@
     padding: 5px;
     max-width: 120px;
   }
+
+  /* Ajouter image ici */
+  .sel_1 {
+    background: url("../img/portfolio/v_sel_1.jpg") no-repeat center;
+  }
+
+  .sel_2 {
+    background: url("../img/portfolio/v_sel_2.jpg") no-repeat center;
+  }
+
+  .sel_3 {
+    background: url("../img/portfolio/v_sel_3.jpg") no-repeat center;
+  }
+
+  .sel_4 {
+    background: url("../img/portfolio/v_sel_4.jpg") no-repeat center;
+  }
+
+  .vin_1 {
+    background: url("../img/portfolio/v_vin_1.jpg") no-repeat center;
+  }
+
+  .vin_2 {
+    background: url("../img/portfolio/v_vin_2.jpg") no-repeat center;
+  }
+
+  .vin_3 {
+    background: url("../img/portfolio/v_vin_3.jpg") no-repeat center;
+  }
+
+  .vin_4 {
+    background: url("../img/portfolio/v_vin_4.jpg") no-repeat center;
+  }
+
+  .tapis_1 {
+    background: url("../img/portfolio/v_tapis_1.jpg") no-repeat center;
+  }
+
+  .tapis_2 {
+    background: url("../img/portfolio/v_tapis_2.jpg") no-repeat center;
+  }
+
+  .tapis_3 {
+    background: url("../img/portfolio/v_tapis_3.jpg") no-repeat center;
+  }
 }
 
 /* iPhone 6 landscape */
-
 @media only screen and (min-device-width: 320px)
-  and (max-device-width: 1024px)  and (orientation: landscape) {
+  and (orientation: landscape) {
 
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
     display: none;
   }
 
-
-  .eclate_1 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/h_vin_1.jpg") no-repeat center;
-    background-size: 100vw;
+  .project .project-description {
+    width: 50%;
+    height: 30%;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
   }
 
-  .eclate_2 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/h_vin_2.jpg") no-repeat center;
-    background-size: 100vw;
+  .project img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition:all 0.9s;
   }
 
-
-  .eclate_3 {
-    width: 100vw;
-    height: 100vh;
-    background: url("../img/portfolio/h_vin_3.jpg") no-repeat center;
-    background-size: 100vw;
+  .child-image {
+    height: 80px;
+    width: 100%;
   }
-
 
   .info-projet {
     padding: 2vh;
@@ -188,17 +133,73 @@
     top: 50px;
     left: 30px;
   }
+
   .info-projet .name {
     text-transform: uppercase;
     font-size: 12px;
   }
+
   .info-projet .separator {
     width: 135px;
     border: 1px solid #f4f4f4;
     box-shadow: 0 1px 0 gray;
   }
+
   .info-projet .description {
     padding: 5px;
     max-width: 120px;
+  }
+
+  /* Ajouter image ici */
+
+  .sel_1 {
+    background: url("../img/portfolio/h_sel_1.jpg") no-repeat center;
+  }
+
+  .sel_2 {
+    background: url("../img/portfolio/h_sel_2.jpg") no-repeat center;
+  }
+
+  .sel_3 {
+    background: url("../img/portfolio/h_sel_3.jpg") no-repeat center;
+  }
+
+  .sel_4 {
+    background: url("../img/portfolio/h_sel_4.jpg") no-repeat center;
+  }
+
+  .vin_1 {
+    background: url("../img/portfolio/h_vin_1.jpg") no-repeat center;
+  }
+
+  .vin_2 {
+    background: url("../img/portfolio/h_vin_2.jpg") no-repeat center;
+  }
+
+  .vin_3 {
+    background: url("../img/portfolio/h_vin_3.jpg") no-repeat center;
+  }
+
+  .vin_4 {
+    background: url("../img/portfolio/h_vin_4.jpg") no-repeat center;
+  }
+
+  .tapis_1 {
+    background: url("../img/portfolio/h_tapis_1.jpg") no-repeat center;
+  }
+
+  .tapis_2 {
+    background: url("../img/portfolio/h_tapis_2.jpg") no-repeat center;
+  }
+
+  .tapis_3 {
+    background: url("../img/portfolio/h_tapis_3.jpg") no-repeat center;
+  }
+
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
+    display: block;
   }
 }
