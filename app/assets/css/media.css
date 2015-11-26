@@ -79,6 +79,11 @@
     background: url("../img/portfolio/v_oasis_7.jpg") no-repeat center;
   }
   
+  
+  .chocolat_1 {
+    background: url("../img/portfolio/v_chocolat_1.jpg") no-repeat center;
+  }
+  
   .sel_1 {
     background: url("../img/portfolio/v_sel_1.jpg") no-repeat center;
   }
@@ -207,6 +212,14 @@
   
   .oasis_7 {
     background: url("../img/portfolio/h_oasis_7.jpg") no-repeat center;
+  }
+  
+  .chocolat_1 {
+    background: url("../img/portfolio/h_chocolat_1.jpg") no-repeat center;
+  }
+
+  .pomme_1 {
+    background: url("../img/portfolio/h_pomme_1.jpg") no-repeat center;
   }
   
   .sel_1 {
