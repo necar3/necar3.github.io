@@ -161,16 +161,32 @@
   /* Ajouter image ici */
 
   
-  .pomme_1 {
-    background: url("../img/portfolio/h_pomme_1.jpg") no-repeat center;
+  .oasis_1 {
+    background: url("../img/portfolio/h_oasis_1.jpg") no-repeat center;
   }
   
-  .pomme_2 {
-    background: url("../img/portfolio/h_pomme_2.jpg") no-repeat center;
+  .oasis_2 {
+    background: url("../img/portfolio/h_oasis_2.jpg") no-repeat center;
   }
   
-  .pomme_3 {
-    background: url("../img/portfolio/h_pomme_3.jpg") no-repeat center;
+  .oasis_3 {
+    background: url("../img/portfolio/h_oasis_3.jpg") no-repeat center;
+  }
+  
+  .oasis_4 {
+    background: url("../img/portfolio/h_oasis_4.jpg") no-repeat center;
+  }
+  
+  .oasis_5 {
+    background: url("../img/portfolio/h_oasis_5.jpg") no-repeat center;
+  }
+  
+  .oasis_6 {
+    background: url("../img/portfolio/h_oasis_6.jpg") no-repeat center;
+  }
+  
+  .oasis_7 {
+    background: url("../img/portfolio/h_oasis_7.jpg") no-repeat center;
   }
   
   .sel_1 {
