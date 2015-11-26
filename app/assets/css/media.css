@@ -51,100 +51,109 @@
   }
 
   /* Ajouter image ici */
+  
   .oasis_1 {
     background: url("../img/portfolio/v_oasis_1.jpg") no-repeat center;
   }
-  
   .oasis_2 {
     background: url("../img/portfolio/v_oasis_2.jpg") no-repeat center;
   }
-  
   .oasis_3 {
     background: url("../img/portfolio/v_oasis_3.jpg") no-repeat center;
   }
-  
   .oasis_4 {
     background: url("../img/portfolio/v_oasis_4.jpg") no-repeat center;
   }
-  
   .oasis_5 {
     background: url("../img/portfolio/v_oasis_5.jpg") no-repeat center;
   }
-  
   .oasis_6 {
     background: url("../img/portfolio/v_oasis_6.jpg") no-repeat center;
   }
-  
   .oasis_7 {
     background: url("../img/portfolio/v_oasis_7.jpg") no-repeat center;
   }
 
+
   .bakingsoda_1 {
     background: url("../img/portfolio/v_bakingsoda_1.jpg") no-repeat center;
   }
-  
   .bakingsoda_2 {
     background: url("../img/portfolio/v_bakingsoda_2.jpg") no-repeat center;
+  }
+  
+  
+  .vin_1 {
+    background: url("../img/portfolio/v_vin_1.jpg") no-repeat center;
+  }
+  .vin_2 {
+    background: url("../img/portfolio/v_vin_2.jpg") no-repeat center;
+  }
+  .vin_3 {
+    background: url("../img/portfolio/v_vin_3.jpg") no-repeat center;
+  }
+  .vin_4 {
+    background: url("../img/portfolio/v_vin_4.jpg") no-repeat center;
+  }
+  
+  
+  .pomme_1 {
+    background: url("../img/portfolio/v_pomme_1.jpg") no-repeat center;
+  }
+  .pomme_2 {
+    background: url("../img/portfolio/v_pomme_2.jpg") no-repeat center;
+  }
+  .pomme_3 {
+    background: url("../img/portfolio/v_pomme_3.jpg") no-repeat center;
   }
   
   .chocolat_1 {
     background: url("../img/portfolio/v_chocolat_1.jpg") no-repeat center;
   }
-  
-  .pomme_1 {
-    background: url("../img/portfolio/v_pomme_1.jpg") no-repeat center;
+  .chocolat_2 {
+    background: url("../img/portfolio/v_chocolat_2.jpg") no-repeat center;
+  }
+  .chocolat_3 {
+    background: url("../img/portfolio/v_chocolat_3.jpg") no-repeat center;
+  }
+  .chocolat_4 {
+    background: url("../img/portfolio/v_chocolat_4.jpg") no-repeat center;
   }
   
-  .pomme_2 {
-    background: url("../img/portfolio/v_pomme_2.jpg") no-repeat center;
+  
+  .eclate_1 {
+    background: url("../img/portfolio/v_eclate_1.jpg") no-repeat center;
+  }
+  .eclate_2 {
+    background: url("../img/portfolio/v_eclate_2.jpg") no-repeat center;
+  }
+  .eclate_3 {
+    background: url("../img/portfolio/v_eclate_3.jpg") no-repeat center;
   }
   
-  .pomme_3 {
-    background: url("../img/portfolio/v_pomme_3.jpg") no-repeat center;
-  }
   
-    .vin_1 {
-    background: url("../img/portfolio/v_vin_1.jpg") no-repeat center;
-  }
-
-  .vin_2 {
-    background: url("../img/portfolio/v_vin_2.jpg") no-repeat center;
-  }
-
-  .vin_3 {
-    background: url("../img/portfolio/v_vin_3.jpg") no-repeat center;
-  }
-
-  .vin_4 {
-    background: url("../img/portfolio/v_vin_4.jpg") no-repeat center;
-  }
-  
-   .noir_1 {
-    background: url("../img/portfolio/v_noir_1.jpg") no-repeat center;
-  }
-
-  .noir_2 {
-    background: url("../img/portfolio/v_noir_2.jpg") no-repeat center;
-  }
-
-  .noir_3 {
-    background: url("../img/portfolio/v_noir_3.jpg") no-repeat center;
-  }
-
   .sel_1 {
     background: url("../img/portfolio/v_sel_1.jpg") no-repeat center;
   }
-
   .sel_2 {
     background: url("../img/portfolio/v_sel_2.jpg") no-repeat center;
   }
-
   .sel_3 {
     background: url("../img/portfolio/v_sel_3.jpg") no-repeat center;
   }
-
   .sel_4 {
     background: url("../img/portfolio/v_sel_4.jpg") no-repeat center;
+  }
+
+      
+  .noir_1 {
+    background: url("../img/portfolio/v_noir_1.jpg") no-repeat center;
+  }
+  .noir_2 {
+    background: url("../img/portfolio/v_noir_2.jpg") no-repeat center;
+  }
+  .noir_3 {
+    background: url("../img/portfolio/v_noir_3.jpg") no-repeat center;
   }
 }
 
@@ -208,97 +217,106 @@
   .oasis_1 {
     background: url("../img/portfolio/h_oasis_0.jpg") no-repeat center;
   }
-  
   .oasis_2 {
     background: url("../img/portfolio/h_oasis_3.jpg") no-repeat center;
   }
-  
   .oasis_3 {
     background: url("../img/portfolio/h_oasis_2.jpg") no-repeat center;
   }
-  
   .oasis_4 {
     background: url("../img/portfolio/h_oasis_1.jpg") no-repeat center;
   }
-  
   .oasis_5 {
     background: url("../img/portfolio/h_oasis_5.jpg") no-repeat center;
   }
-  
   .oasis_6 {
     background: url("../img/portfolio/h_oasis_6.jpg") no-repeat center;
   }
-  
   .oasis_7 {
     background: url("../img/portfolio/h_oasis_7.jpg") no-repeat center;
   }
   
+  
   .bakingsoda_1 {
     background: url("../img/portfolio/h_bakingsoda_1.jpg") no-repeat center;
   }
-  
   .bakingsoda_2 {
     background: url("../img/portfolio/h_bakingsoda_2.jpg") no-repeat center;
   }
   
-  .chocolat_1 {
-    background: url("../img/portfolio/h_chocolat_1.jpg") no-repeat center;
-  }
-
-  .pomme_1 {
-    background: url("../img/portfolio/h_pomme_1.jpg") no-repeat center;
-  }
-  
-  .pomme_2 {
-    background: url("../img/portfolio/h_pomme_2.jpg") no-repeat center;
-  }
-  
-  .pomme_3 {
-    background: url("../img/portfolio/h_pomme_3.jpg") no-repeat center;
-  }
   
   .vin_1 {
     background: url("../img/portfolio/h_vin_1.jpg") no-repeat center;
   }
-
   .vin_2 {
     background: url("../img/portfolio/h_vin_2.jpg") no-repeat center;
   }
-
   .vin_3 {
     background: url("../img/portfolio/h_vin_3.jpg") no-repeat center;
   }
-
   .vin_4 {
     background: url("../img/portfolio/h_vin_4.jpg") no-repeat center;
   }
   
-  .noir_1 {
-    background: url("../img/portfolio/h_noir_1.jpg") no-repeat center;
+
+  .pomme_1 {
+    background: url("../img/portfolio/h_pomme_1.jpg") no-repeat center;
+  }
+  .pomme_2 {
+    background: url("../img/portfolio/h_pomme_2.jpg") no-repeat center;
+  }
+  .pomme_3 {
+    background: url("../img/portfolio/h_pomme_3.jpg") no-repeat center;
+  }
+  
+  
+  .chocolat_1 {
+    background: url("../img/portfolio/h_chocolat_1.jpg") no-repeat center;
+  }
+  .chocolat_2 {
+    background: url("../img/portfolio/h_chocolat_2.jpg") no-repeat center;
+  }
+  .chocolat_3 {
+    background: url("../img/portfolio/h_chocolat_3.jpg") no-repeat center;
+  }
+  .chocolat_4 {
+    background: url("../img/portfolio/h_chocolat_4.jpg") no-repeat center;
   }
 
-  .noir_2 {
-    background: url("../img/portfolio/h_noir_2.jpg") no-repeat center;
-  }
 
-  .noir_3 {
-    background: url("../img/portfolio/h_noir_3.jpg") no-repeat center;
+  .eclate_1 {
+    background: url("../img/portfolio/h_eclate_1.jpg") no-repeat center;
   }
-
+  .eclate_2 {
+    background: url("../img/portfolio/h_eclate_2.jpg") no-repeat center;
+  }
+  .eclate_3 {
+    background: url("../img/portfolio/h_eclate_3.jpg") no-repeat center;
+  }
+  
+  
   .sel_1 {
     background: url("../img/portfolio/h_sel_1.jpg") no-repeat center;
   }
-
   .sel_2 {
     background: url("../img/portfolio/h_sel_2.jpg") no-repeat center;
   }
-
   .sel_3 {
     background: url("../img/portfolio/h_sel_3.jpg") no-repeat center;
   }
-
   .sel_4 {
     background: url("../img/portfolio/h_sel_4.jpg") no-repeat center;
+  }
+  
+  
+  .noir_1 {
+    background: url("../img/portfolio/h_noir_1.jpg") no-repeat center;
+  }
+  .noir_2 {
+    background: url("../img/portfolio/h_noir_2.jpg") no-repeat center;
+  }
+  .noir_3 {
+    background: url("../img/portfolio/h_noir_3.jpg") no-repeat center;
   }
 }
 
