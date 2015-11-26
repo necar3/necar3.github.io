@@ -52,11 +52,31 @@
 
   /* Ajouter image ici */
   .oasis_1 {
-    background: url("../img/portfolio/v_pomme_1.jpg") no-repeat center;
+    background: url("../img/portfolio/v_oasis_1.jpg") no-repeat center;
   }
   
   .oasis_2 {
-    background: url("../img/portfolio/v_pomme_3.jpg") no-repeat center;
+    background: url("../img/portfolio/v_oasis_2.jpg") no-repeat center;
+  }
+  
+  .oasis_3 {
+    background: url("../img/portfolio/v_oasis_3.jpg") no-repeat center;
+  }
+  
+  .oasis_4 {
+    background: url("../img/portfolio/v_oasis_4.jpg") no-repeat center;
+  }
+  
+  .oasis_5 {
+    background: url("../img/portfolio/v_oasis_5.jpg") no-repeat center;
+  }
+  
+  .oasis_6 {
+    background: url("../img/portfolio/v_oasis_6.jpg") no-repeat center;
+  }
+  
+  .oasis_7 {
+    background: url("../img/portfolio/v_oasis_7.jpg") no-repeat center;
   }
   
   .sel_1 {
