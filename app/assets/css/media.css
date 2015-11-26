@@ -79,28 +79,23 @@
     background: url("../img/portfolio/v_oasis_7.jpg") no-repeat center;
   }
   
-  
   .chocolat_1 {
     background: url("../img/portfolio/v_chocolat_1.jpg") no-repeat center;
   }
   
-  .sel_1 {
-    background: url("../img/portfolio/v_sel_1.jpg") no-repeat center;
+  .pomme_1 {
+    background: url("../img/portfolio/v_pomme_1.jpg") no-repeat center;
   }
-
-  .sel_2 {
-    background: url("../img/portfolio/v_sel_2.jpg") no-repeat center;
+  
+  .pomme_2 {
+    background: url("../img/portfolio/v_pomme_2.jpg") no-repeat center;
   }
-
-  .sel_3 {
-    background: url("../img/portfolio/v_sel_3.jpg") no-repeat center;
+  
+  .pomme_3 {
+    background: url("../img/portfolio/v_pomme_3.jpg") no-repeat center;
   }
-
-  .sel_4 {
-    background: url("../img/portfolio/v_sel_4.jpg") no-repeat center;
-  }
-
-  .vin_1 {
+  
+    .vin_1 {
     background: url("../img/portfolio/v_vin_1.jpg") no-repeat center;
   }
 
@@ -115,17 +110,33 @@
   .vin_4 {
     background: url("../img/portfolio/v_vin_4.jpg") no-repeat center;
   }
-
-  .tapis_1 {
-    background: url("../img/portfolio/v_tapis_1.jpg") no-repeat center;
+  
+   .noir_1 {
+    background: url("../img/portfolio/v_noir_1.jpg") no-repeat center;
   }
 
-  .tapis_2 {
-    background: url("../img/portfolio/v_tapis_2.jpg") no-repeat center;
+  .noir_2 {
+    background: url("../img/portfolio/v_noir_2.jpg") no-repeat center;
   }
 
-  .tapis_3 {
-    background: url("../img/portfolio/v_tapis_3.jpg") no-repeat center;
+  .noir_3 {
+    background: url("../img/portfolio/v_noir_3.jpg") no-repeat center;
+  }
+
+  .sel_1 {
+    background: url("../img/portfolio/v_sel_1.jpg") no-repeat center;
+  }
+
+  .sel_2 {
+    background: url("../img/portfolio/v_sel_2.jpg") no-repeat center;
+  }
+
+  .sel_3 {
+    background: url("../img/portfolio/v_sel_3.jpg") no-repeat center;
+  }
+
+  .sel_4 {
+    background: url("../img/portfolio/v_sel_4.jpg") no-repeat center;
   }
 }
 
@@ -222,22 +233,14 @@
     background: url("../img/portfolio/h_pomme_1.jpg") no-repeat center;
   }
   
-  .sel_1 {
-    background: url("../img/portfolio/h_sel_1.jpg") no-repeat center;
+  .pomme_2 {
+    background: url("../img/portfolio/h_pomme_2.jpg") no-repeat center;
   }
-
-  .sel_2 {
-    background: url("../img/portfolio/h_sel_2.jpg") no-repeat center;
+  
+  .pomme_3 {
+    background: url("../img/portfolio/h_pomme_3.jpg") no-repeat center;
   }
-
-  .sel_3 {
-    background: url("../img/portfolio/h_sel_3.jpg") no-repeat center;
-  }
-
-  .sel_4 {
-    background: url("../img/portfolio/h_sel_4.jpg") no-repeat center;
-  }
-
+  
   .vin_1 {
     background: url("../img/portfolio/h_vin_1.jpg") no-repeat center;
   }
@@ -253,19 +256,34 @@
   .vin_4 {
     background: url("../img/portfolio/h_vin_4.jpg") no-repeat center;
   }
-
-  .tapis_1 {
-    background: url("../img/portfolio/h_tapis_1.jpg") no-repeat center;
+  
+  .noir_1 {
+    background: url("../img/portfolio/h_noir_1.jpg") no-repeat center;
   }
 
-  .tapis_2 {
-    background: url("../img/portfolio/h_tapis_2.jpg") no-repeat center;
+  .noir_2 {
+    background: url("../img/portfolio/h_noir_2.jpg") no-repeat center;
   }
 
-  .tapis_3 {
-    background: url("../img/portfolio/h_tapis_3.jpg") no-repeat center;
+  .noir_3 {
+    background: url("../img/portfolio/h_noir_3.jpg") no-repeat center;
   }
 
+  .sel_1 {
+    background: url("../img/portfolio/h_sel_1.jpg") no-repeat center;
+  }
+
+  .sel_2 {
+    background: url("../img/portfolio/h_sel_2.jpg") no-repeat center;
+  }
+
+  .sel_3 {
+    background: url("../img/portfolio/h_sel_3.jpg") no-repeat center;
+  }
+
+  .sel_4 {
+    background: url("../img/portfolio/h_sel_4.jpg") no-repeat center;
+  }
 }
 
 @media only screen and (min-device-width: 1024px) {
