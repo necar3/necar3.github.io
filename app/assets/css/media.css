@@ -21,6 +21,7 @@
   .child-image {
     height: 80px;
     width: 100%;
+    object-fit: cover;
   }
 
 
@@ -184,6 +185,7 @@
   .child-image {
     height: 80px;
     width: 100%;
+    object-fit: cover;
   }
 
   .info-projet {
@@ -320,9 +322,14 @@
   }
 }
 
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-device-width: 1024px) and (orientation: landscape) {
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
     display: block;
+  }
+
+  .project img{
+    -webkit-filter: none;
+    -webkit-transition:all 0.9s;
   }
 
   .project img :hover{
