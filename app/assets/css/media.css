@@ -156,6 +156,31 @@
   .noir_3 {
     background: url("../img/portfolio/v_noir_3.jpg") no-repeat center;
   }
+  
+  .dazibao_1 {
+    background: url("../img/portfolio/v_dazibao_1.jpg") no-repeat center;
+  }
+  .dazibao_2 {
+    background: url("../img/portfolio/v_dazibao_2.jpg") no-repeat center;
+  }
+  .dazibao_3 {
+    background: url("../img/portfolio/v_dazibao_3.jpg") no-repeat center;
+  }
+  .dazibao_4 {
+    background: url("../img/portfolio/v_dazibao_4.jpg") no-repeat center;
+  }
+  
+  .thermos_1 {
+    background: url("../img/portfolio/v_thermos_1.jpg") no-repeat center;
+  }
+  .thermos_2 {
+    background: url("../img/portfolio/v_thermos_2.jpg") no-repeat center;
+  }
+  .thermos_3 {
+    background: url("../img/portfolio/v_thermos_3.jpg") no-repeat center;
+  }
+
+
 }
 
 /* iPhone 6 landscape */
@@ -320,6 +345,31 @@
   .noir_3 {
     background: url("../img/portfolio/h_noir_3.jpg") no-repeat center;
   }
+  
+  .dazibao_1 {
+    background: url("../img/portfolio/h_dazibao_1.jpg") no-repeat center;
+  }
+  .dazibao_2 {
+    background: url("../img/portfolio/h_dazibao_2.jpg") no-repeat center;
+  }
+  .dazibao_3 {
+    background: url("../img/portfolio/h_dazibao_3.jpg") no-repeat center;
+  }
+  .dazibao_4 {
+    background: url("../img/portfolio/h_dazibao_4.jpg") no-repeat center;
+  }
+  
+  .thermos_1 {
+    background: url("../img/portfolio/h_thermos_1.jpg") no-repeat center;
+  }
+  .thermos_2 {
+    background: url("../img/portfolio/h_thermos_2.jpg") no-repeat center;
+  }
+  .thermos_3 {
+    background: url("../img/portfolio/h_thermos_3.jpg") no-repeat center;
+  }
+
+
 }
 
 @media only screen and (min-device-width: 1024px) and (orientation: landscape) {
