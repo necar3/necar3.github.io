@@ -3,7 +3,7 @@
   and (max-device-width: 767px) and (orientation: portrait) {
 
   .project .project-description {
-      width: 50%;
+      width: 70%;
       height: 30%;
       color: #fff;
       font-size: 1.1em;
@@ -156,7 +156,7 @@
   .noir_3 {
     background: url("../img/portfolio/v_noir_3.jpg") no-repeat center;
   }
-  
+
   .dazibao_1 {
     background: url("../img/portfolio/v_dazibao_1.jpg") no-repeat center;
   }
@@ -169,7 +169,7 @@
   .dazibao_4 {
     background: url("../img/portfolio/v_dazibao_4.jpg") no-repeat center;
   }
-  
+
   .thermos_1 {
     background: url("../img/portfolio/v_thermos_1.jpg") no-repeat center;
   }
@@ -345,7 +345,7 @@
   .noir_3 {
     background: url("../img/portfolio/h_noir_3.jpg") no-repeat center;
   }
-  
+
   .dazibao_1 {
     background: url("../img/portfolio/h_dazibao_1.jpg") no-repeat center;
   }
@@ -358,7 +358,7 @@
   .dazibao_4 {
     background: url("../img/portfolio/h_dazibao_4.jpg") no-repeat center;
   }
-  
+
   .thermos_1 {
     background: url("../img/portfolio/h_thermos_1.jpg") no-repeat center;
   }
