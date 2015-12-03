@@ -372,7 +372,7 @@
 
 }
 
-@media only screen and (min-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 1024px) {
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
     display: block;
   }
