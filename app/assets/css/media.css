@@ -13,6 +13,15 @@
     display: none;
   }
 
+  .project:hover .project-description {
+    display: none;
+  }
+  .project:hover img {
+    -webkit-filter: none;
+    -webkit-transition: none;
+  }
+
+
   .intro {
     display: -webkit-flex;
     display: flex;
@@ -185,6 +194,14 @@
 
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
     display: none;
+  }
+
+  .project:hover .project-description {
+    display: none;
+  }
+  .project:hover img {
+    -webkit-filter: none;
+    -webkit-transition: none;
   }
 
   .child-image {
