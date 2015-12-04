@@ -2,22 +2,6 @@
 @media only screen and (min-device-width: 320px)
   and (max-device-width: 767px) and (orientation: portrait) {
 
-  .project .project-description {
-      width: 70%;
-      height: 30%;
-      color: #fff;
-      font-size: 1.1em;
-      font-weight: 300;
-      text-transform: uppercase;
-      text-align: center;
-      display: block;
-  }
-
-  .project img {
-    -webkit-filter: brightness(50%);
-    -webkit-transition:all 0.9s;
-  }
-
   .child-image {
     height: 80px;
     width: 100%;
@@ -201,22 +185,6 @@
 
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
     display: none;
-  }
-
-  .project .project-description {
-    width: 50%;
-    height: 30%;
-    color: #fff;
-    font-size: 1.1em;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: center;
-    display: block;
-  }
-
-  .project img {
-    -webkit-filter: brightness(50%);
-    -webkit-transition:all 0.9s;
   }
 
   .child-image {
