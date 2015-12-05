@@ -189,21 +189,9 @@
 }
 
 /* iPhone 6 landscape */
-@media only screen and (min-device-width: 320px) 
+@media only screen and (min-device-width: 320px)
   and (orientation: landscape) {
-
-  .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
-    display: none;
-  }
-
-  .project:hover .project-description {
-    display: none;
-  }
-  .project:hover img {
-    -webkit-filter: none;
-    -webkit-transition: none;
-  }
-
+s
   .child-image {
     height: 80px;
     width: 100%;
@@ -367,6 +355,34 @@
   }
 
 
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1023px)
+  and (orientation: landscape) {
+
+  .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
+    display: none;
+  }
+
+  .project:hover .project-description {
+    display: none;
+  }
+  .project:hover img {
+    -webkit-filter: none;
+    -webkit-transition: none;
+  }
+
+  .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
+    display: none;
+  }
+
+  .project:hover .project-description {
+    display: none;
+  }
+  .project:hover img {
+    -webkit-filter: none;
+    -webkit-transition: none;
+  }
 }
 
 @media only screen and (min-device-width: 1024px) {
