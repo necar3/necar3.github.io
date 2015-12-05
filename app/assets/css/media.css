@@ -189,7 +189,7 @@
 }
 
 /* iPhone 6 landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px)
+@media only screen and (min-device-width: 320px) 
   and (orientation: landscape) {
 
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
@@ -372,6 +372,10 @@
 @media only screen and (min-device-width: 1024px) {
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
     display: block;
+  }
+
+  .intro {
+
   }
 
   .project img{
