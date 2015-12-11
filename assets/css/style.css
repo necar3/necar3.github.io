@@ -10,6 +10,9 @@ body {
   font: 300 11px/1.6 'Helvetica Neue Light', Helvetica, Arial;
   color: #444;
   transition: all .4s .3s ease-in;
+  -webkit-transition: all .4s .3s ease-in;
+  -moz-transition: all .4s .3s ease-in;
+  -o-transition: all .4s .3s ease-in;
 }
 
 .button {
@@ -533,7 +536,12 @@ td, th {
 }
 .project:hover img {
   -webkit-filter: brightness(50%);
-  -webkit-transition:all 0.9s;
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  -o-transition: all 0.9s;
 }
 
 .projet-title {
