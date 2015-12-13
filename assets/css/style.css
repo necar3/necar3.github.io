@@ -2,6 +2,7 @@
   content: ' ';
   display: table;
 }
+
 html {
   font-size: 62.5%;
   background: #EAEAEA;
@@ -26,10 +27,6 @@ body {
   width: 28px;
   height: 20px;
   background-repeat: no-repeat;
-}
-.center {
-  display: block;
-  margin: 0 auto;
 }
 
 .fp-controlArrow {
@@ -56,10 +53,6 @@ body {
     background: url("../img/portfolio/arrow_r_s.png");
     border: none;
     background-repeat: no-repeat;
-}
-
-.max-height {
-  max-height: 600px;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -503,6 +496,8 @@ td, th {
 
 .project {
   display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
