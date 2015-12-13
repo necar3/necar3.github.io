@@ -509,6 +509,11 @@ td, th {
   position: relative;
   height: 100%;
 }
+
+.child-image {
+  min-height: 80px;
+}
+
 .project-description {
   position: absolute;
   top: 0;
