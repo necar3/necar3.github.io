@@ -2,6 +2,7 @@
   content: ' ';
   display: table;
 }
+
 html {
   font-size: 62.5%;
   background: #EAEAEA;
@@ -26,10 +27,6 @@ body {
   width: 28px;
   height: 20px;
   background-repeat: no-repeat;
-}
-.center {
-  display: block;
-  margin: 0 auto;
 }
 
 .fp-controlArrow {
@@ -56,10 +53,6 @@ body {
     background: url("../img/portfolio/arrow_r_s.png");
     border: none;
     background-repeat: no-repeat;
-}
-
-.max-height {
-  max-height: 600px;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -477,6 +470,7 @@ td, th {
 }
 .logo {
   height: 150px;
+  width: 100%;
   background-color: #f4f4f4;
   display: -webkit-box;
   display: -webkit-flex;
@@ -503,6 +497,8 @@ td, th {
 
 .project {
   display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
@@ -514,6 +510,11 @@ td, th {
   position: relative;
   height: 100%;
 }
+
+.child-image {
+  min-height: 80px;
+}
+
 .project-description {
   position: absolute;
   top: 0;
@@ -651,4 +652,8 @@ a {
 a:visited {
   color: #000000;
   text-decoration: none;
+}
+
+header {
+  width: 100%;
 }

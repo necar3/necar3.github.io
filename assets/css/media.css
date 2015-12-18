@@ -1,6 +1,6 @@
   /* iPhone 6 Portrait */
 @media only screen and (min-device-width: 320px)
-  and (max-device-width: 767px) and (orientation: portrait) {
+  and (orientation: portrait) {
 
   .child-image {
     height: 80px;
@@ -191,7 +191,7 @@
 /* iPhone 6 landscape */
 @media only screen and (min-device-width: 320px)
   and (orientation: landscape) {
-s
+
   .child-image {
     height: 80px;
     width: 100%;
@@ -388,10 +388,6 @@ s
 @media only screen and (min-device-width: 1024px) {
   .fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
     display: block;
-  }
-
-  .intro {
-
   }
 
   .project img{
